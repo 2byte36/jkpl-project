@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env*.example
+
+# Local tooling
+.codex
+.DS_Store
+.vscode/
+.idea/
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Build output
+**/build/
+**/dist/
+**/dist-ssr/
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.phpunit.result.cache
+coverage/
+
+# OS/editor files
+Thumbs.db
+*.swp
+*.swo

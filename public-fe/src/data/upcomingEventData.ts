@@ -1,0 +1,48 @@
+import { UpcomingEvent } from '../types/upcomingEvent.types';
+
+export const upcomingEventData: UpcomingEvent[] = [
+  {
+    id: 1,
+    image: '/images/concentration.png',
+    title: 'Concentration 2025',
+    category: 'Pop',
+    date: 'Oct 20, 2024',
+    time: '11.00 AM',
+    venue: 'SMAN 1 Tambun Selatan',
+    city: 'Bekasi',
+    priceRange: 'IDR 75,000 - IDR 95,000',
+  },
+  {
+    id: 2,
+    image: '/images/baceprot.png',
+    title: 'Voice of Baceprot: Retas Tour',
+    category: 'Rock',
+    date: 'Oct 7, 2023',
+    time: '7:30 PM',
+    venue: 'IFI Bandung',
+    city: 'Bandung',
+    priceRange: 'IDR 200,000 - IDR 600,000',
+  },
+  {
+    id: 3,
+    image: '/images/fourtwnty.png',
+    title: 'Fourtwnty: Konser Akhir Pekan',
+    category: 'Alternative',
+    date: 'Dec 2, 2023',
+    time: '6:30 PM',
+    venue: 'Pantai Mertasari',
+    city: 'Bali',
+    priceRange: 'IDR 250,000 - IDR 900,000',
+  },
+  {
+    id: 4,
+    image: '/images/tulus.png',
+    title: 'Konser Intim Tulus',
+    category: 'Pop',
+    date: 'June 15, 2023',
+    time: '7:00 PM',
+    venue: 'The Pallas',
+    city: 'SCBD, Jakarta',
+    priceRange: 'IDR 500,000 - IDR 1,800,000',
+  },
+];
