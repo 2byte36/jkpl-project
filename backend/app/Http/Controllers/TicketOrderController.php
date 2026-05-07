@@ -92,6 +92,9 @@ class TicketOrderController extends Controller
                 'first_name' => $user->username,
                 'email' => $user->email,
             ],
+            'callbacks' => [
+                'finish' => rtrim(env('FRONTEND_URL', 'http://localhost:5173'), '/') . '/my-ticket',
+            ],
         ];
 
         try {
