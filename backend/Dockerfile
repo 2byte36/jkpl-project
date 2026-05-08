@@ -26,6 +26,7 @@ WORKDIR /var/www/html
 COPY --from=vendor /app /var/www/html
 
 RUN mkdir -p storage/framework/cache storage/framework/views storage/framework/sessions bootstrap/cache \
+    && sed -i 's/\r$//' docker/entrypoint.sh \
     && chmod +x docker/entrypoint.sh \
     && chown -R www-data:www-data storage bootstrap/cache
 
